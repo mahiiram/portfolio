@@ -25,8 +25,9 @@ const Footer = () => {
                 <p>
                 <NavLink to="https://mail.google.com/mail/u/0/#inbox?compose=new">
                 <FaMailBulk size={20} style={{color:"#fff", marginRight:"2rem"}}/>
-                </NavLink>
                  Mahendran.ramar9797@gmail.com 
+                </NavLink>
+                 
                 </p>
             </div> 
         </div>

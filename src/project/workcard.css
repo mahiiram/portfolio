@@ -83,7 +83,7 @@ section.pricing {
         margin: none;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 90px;
+        gap: 50px;
       }
     
   }
