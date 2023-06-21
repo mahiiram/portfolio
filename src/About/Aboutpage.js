@@ -9,8 +9,8 @@ const Aboutpage = () => {
       <div className='left'>
         <h1>Who Am I</h1>
         <p>I am a Full Stack Web Developer.Skills that i have learned to explore 
-          and develop the websites is Html, Css, Javascipt, React, Nodejs
-          ,Bootstrap ,Mysql, MongoDB
+          and develop the websites is Html, Css, Javascipt, Reactjs, Nodejs
+          ,Bootstrap, MongoDB
         </p>
         <Link to="/contact">
           <button className="btn" >Contact</button>
