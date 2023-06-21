@@ -15,7 +15,7 @@ const Workcard = () => {
                 <div class="row">
 
                     <div class="col-lg-4">
-                        <div class="card mb-5 mb-lg-0">
+                        <div class="card mb-10 mb-lg-0">
                             <div class="card-body">
                                 <h3 class="card-title text-uppercase text-center" >ADD TO CART</h3>
                                 <img src={addcart} alt="cart" />
@@ -36,7 +36,7 @@ const Workcard = () => {
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="card mb-5 mb-lg-0">
+                        <div class="card mb-10 mb-lg-0">
                             <div class="card-body">
                                 <h3 class="card-title text-uppercase text-center">DICTIONERY</h3>
                                 <img src={dic} alt="dictionery" />
@@ -57,7 +57,7 @@ const Workcard = () => {
                     </div>
 
                     <div class="col-lg-4">
-                        <div class="card mb-5 mb-lg-0">
+                        <div class="card mb-10 mb-lg-0">
                             <div class="card-body">
                                 <h3 class="card-title text-uppercase text-center">CALCULATOR</h3>
                                 <img src={calc} alt="calc" />
@@ -77,7 +77,7 @@ const Workcard = () => {
                     </div>
 
                     <div class="col-lg-4">
-                        <div class="card mb-5 mb-lg-0">
+                        <div class="card mb-10 mb-lg-0">
                             <div class="card-body">
                                 <h3 class="card-title text-uppercase text-center">urlshortener</h3>
                                 <img src={url} alt="calc" />
@@ -95,13 +95,13 @@ const Workcard = () => {
                     </div>
 
                     <div class="col-lg-4">
-                        <div class="card mb-5 mb-lg-0">
+                        <div class="card mb-10 mb-lg-0">
                             <div class="card-body">
                                 <h3 class="card-title text-uppercase text-center">Movie BOOKING</h3>
                                 <img src={moviebooking} alt="calc" />
                                 <div>
                                     <p>
-                                    This is a simple movie booking app created with both Reactjs and Nodejs.you can add and delete a movie as an Admin. if you are You are user you can booking the movies only.  
+                                    This is a simple movie booking app created with both Reactjs and Nodejs.you can add and delete a movie as an Admin. if You are user you can booking the movies only.  
                                     </p>
                                 </div>
                                 <div class="d-grid btn-section">
