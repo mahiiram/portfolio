@@ -3,8 +3,10 @@ import "./workcard.css";
 import React from 'react';
 import addcart from "../assets/addcart.png";
 import dic from "../assets/dic.png";
-import calc from "../assets/calc.png"
+import calc from "../assets/calc.png";
+import url from '../assets/Url.png'
 import { NavLink } from "react-router-dom";
+import moviebooking from '../assets/Moviebooking.png'
 
 const Workcard = () => {
     return (
@@ -69,6 +71,42 @@ const Workcard = () => {
                                 <div class="d-grid btn-section">
                                     <NavLink to="https://gleeful-clafoutis-2ce1ac.netlify.app/" className='btn' >View</NavLink>
                                     <NavLink to="https://github.com/mahiiram/day15calculator" className='btn' >Source</NavLink>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card mb-5 mb-lg-0">
+                            <div class="card-body">
+                                <h3 class="card-title text-uppercase text-center">urlshortener</h3>
+                                <img src={url} alt="calc" />
+                                <div>
+                                    <p>
+                                    URL sortner its shorts the long url into short,if you are a registered user you have to be use this shortner Otherwise not.After login the the url shorner form Will come. You can using it after login 
+                                    </p>
+                                </div>
+                                <div class="d-grid btn-section">
+                                    <NavLink to="https://tranquil-haupia-9236a4.netlify.app/" className='btn' >View</NavLink>
+                                    <NavLink to="https://github.com/mahiiram/urlshortener-frontend" className='btn' >Source</NavLink>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card mb-5 mb-lg-0">
+                            <div class="card-body">
+                                <h3 class="card-title text-uppercase text-center">Movie BOOKING</h3>
+                                <img src={moviebooking} alt="calc" />
+                                <div>
+                                    <p>
+                                    This is a simple movie booking app created with both Reactjs and Nodejs.you can add and delete a movie as an Admin. if you are You are user you can booking the movies only.  
+                                    </p>
+                                </div>
+                                <div class="d-grid btn-section">
+                                    <NavLink to="https://tubular-valkyrie-8e79c8.netlify.app/" className='btn' >View</NavLink>
+                                    <NavLink to="https://github.com/mahiiram/wecode-frontend-ticketbooking" className='btn' >Source</NavLink>
                                 </div>
                             </div>
                         </div>
