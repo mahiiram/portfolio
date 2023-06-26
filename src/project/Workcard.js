@@ -83,7 +83,7 @@ const Workcard = () => {
                                 <img src={url} alt="calc" />
                                 <div>
                                     <p>
-                                    URL sortner its shorts the long url into short,if you are a registered user you have to be use this shortner Otherwise not.After login the the url shorner form Will come. You can using it after login 
+                                    URL sortner its shorts the long url into short,if you are a registered user you can be use this shortner Otherwise not.After login, the url shorner form Will come. You can using it after login 
                                     </p>
                                 </div>
                                 <div class="d-grid btn-section">
