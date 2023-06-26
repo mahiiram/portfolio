@@ -7,7 +7,7 @@ import calc from "../assets/calc.png";
 import url from '../assets/Url.png'
 import { NavLink } from "react-router-dom";
 import moviebooking from '../assets/Moviebooking.png'
-
+import dietapp from '../assets/DIetapp.png'
 const Workcard = () => {
     return (
         <section class="pricing py-5">
@@ -107,6 +107,23 @@ const Workcard = () => {
                                 <div class="d-grid btn-section">
                                     <NavLink to="https://tubular-valkyrie-8e79c8.netlify.app/" className='btn' >View</NavLink>
                                     <NavLink to="https://github.com/mahiiram/wecode-frontend-ticketbooking" className='btn' >Source</NavLink>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card mb-10 mb-lg-0">
+                            <div class="card-body">
+                                <h3 class="card-title text-uppercase text-center">DietSuggestionAPP</h3>
+                                <img src={dietapp} alt="calc" />
+                                <div>
+                                    <p>
+                                    It is a simple diet suggestion app created with both Reactjs and Nodejs.You can learn how to loss and gain a weight from this app.  
+                                    </p>
+                                </div>
+                                <div class="d-grid btn-section">
+                                    <NavLink to="https://heartfelt-zabaione-54ea12.netlify.app/" className='btn' >View</NavLink>
+                                    <NavLink to="" className='btn' >Source</NavLink>
                                 </div>
                             </div>
                         </div>
