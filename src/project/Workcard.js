@@ -123,7 +123,7 @@ const Workcard = () => {
                                 </div>
                                 <div class="d-grid btn-section">
                                     <NavLink to="https://heartfelt-zabaione-54ea12.netlify.app/" className='btn' >View</NavLink>
-                                    <NavLink to="" className='btn' >Source</NavLink>
+                                    <NavLink to="https://github.com/mahiiram/dietsuggestionapp-frontend" className='btn' >Source</NavLink>
                                 </div>
                             </div>
                         </div>
