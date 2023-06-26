@@ -1,7 +1,9 @@
 import React from 'react'
 import './heroimg.css';
-import { Link } from 'react-router-dom';
+import { Link,NavLink } from 'react-router-dom';
 import newimg from "../assets/newimg.jpg";
+import { FaDownload } from "react-icons/fa";
+import resume from '../assets/MahendranResume.pdf'
 
 const Heroimg = () => {
   return (
@@ -14,6 +16,17 @@ const Heroimg = () => {
             <p>Hi,I'm Mahendran</p>
             <h1>Full Stack Developer MERN</h1>
             <Link to="/project" className="btn">Projects</Link>
+            <NavLink to={resume} target="blank">
+            <button class="btn">
+              {" "}
+              download CV{" "}
+              <FaDownload
+                size={16}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </button>
+          </NavLink>
+
         </div>
     </div>
   )
