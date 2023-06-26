@@ -16,15 +16,8 @@ const Heroimg = () => {
             <p>Hi,I'm Mahendran</p>
             <h1>Full Stack Developer MERN</h1>
             <Link to="/project" className="btn">Projects</Link>
-            <NavLink to={resume} target="blank">
-            <button class="btn">
-              {" "}
-              download CV{" "}
-              <FaDownload
-                size={16}
-                style={{ color: "#fff", marginRight: "1rem" }}
-              />
-            </button>
+            <NavLink to='https://drive.google.com/file/d/1eCAolsP7WBW1q9MIESGV8TPPkG6BEKWV/view' target="blank">
+            <button class="btn">Resume</button>
           </NavLink>
 
         </div>
