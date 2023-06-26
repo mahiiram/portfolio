@@ -1,6 +1,6 @@
 import React from 'react'
 import './heroimg.css';
-import { Link } from 'react-router-dom';
+import { Link,NavLink } from 'react-router-dom';
 import newimg from "../assets/newimg.jpg";
 
 const Heroimg = () => {
@@ -14,7 +14,6 @@ const Heroimg = () => {
             <p>Hi,I'm Mahendran</p>
             <h1>Full Stack Developer MERN</h1>
             <Link to="/project" className="btn">Projects</Link>
-            <Link to="/contact" className="btn btn-light">Contact</Link>
         </div>
     </div>
   )

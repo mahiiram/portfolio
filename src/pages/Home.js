@@ -1,7 +1,7 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
-import Heroimg from '../components/Heroimg';
-import Footer from '../components/Footer';
+import Navbar from '../components/Navbar.js';
+import Heroimg from '../components/Heroimg.js';
+import Footer from '../components/Footer.js';
 
 const Home = () => {
   return (
