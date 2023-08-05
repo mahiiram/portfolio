@@ -9,13 +9,11 @@ import { NavLink } from "react-router-dom";
 import moviebooking from '../assets/Moviebooking.png'
 import dietapp from '../assets/DIetapp.png'
 const Workcard = () => {
+
     return (
         <section class="pricing py-5">
             <div class="container">
                 <div class="row">
-
-                    
-
                     <div class="col-lg-4">
                         <div class="card mb-10 mb-lg-0">
                             <div class="card-body">
@@ -85,7 +83,7 @@ const Workcard = () => {
                                     </p>
                                 </div>
                                 <div class="d-grid btn-section">
-                                    <NavLink to="https://heartfelt-zabaione-54ea12.netlify.app/" className='btn' >View</NavLink>
+                                    <NavLink to="https://diet-suggestion-application.netlify.app/" className='btn' >View</NavLink>
                                     <NavLink to="https://github.com/mahiiram/dietsuggestionapp-frontend" className='btn' >Source</NavLink>
                                 </div>
                             </div>
