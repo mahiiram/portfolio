@@ -8,9 +8,7 @@ const Aboutpage = () => {
     <div className='about'>
       <div className='left'>
         <h1>Who Am I</h1>
-        <p>I am a Full Stack Web Developer.Skills that i have learned to explore 
-          and develop the websites is Html, Css, Javascipt, Reactjs, Nodejs
-          ,Bootstrap, MongoDB
+        <p>Enthusiatic MERN Stack Web Developer with a strong foundation in front end and back-end technologies. Eager to apply my knowledge in creating responsive user-friendly web applications and passionate about continuous learning and growth Seeking opportunities to contribute to dynamic development projects and collaborate with experienced professional
         </p>
         <Link to="/contact">
           <button className="btn" >Contact</button>

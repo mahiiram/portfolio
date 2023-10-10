@@ -15,9 +15,9 @@ const Heroimg = () => {
         <div className='content'>
             <p>Hi,I'm Mahendran</p>
             <h1>Full Stack Developer MERN</h1>
-            <Link to="/project" className="btn">Projects</Link>
+            <Link to="/project"> <button class="button-30" role="button">Project</button></Link>
             <NavLink to='https://drive.google.com/file/d/1J1aVpMBtgB3ZpuEd6QDJO1CkMdh45e3Z/view?usp=drive_link' target="blank">
-            <button class="btn">Resume</button>
+            <button class="button-30" role="button">Resume</button>
           </NavLink>
 
         </div>
