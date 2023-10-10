@@ -20,7 +20,6 @@ ul{
 }
 
 .btn{
-  width: 150px;
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
@@ -40,6 +39,31 @@ ul{
   background: rgba(255, 255, 255, 0.2);
   color: #fff;
   transition: 0.3s;
+}
+
+@media screen and (max-width:722px) {
+  .btn{
+    width: 120px;
+    padding: 12px 32px;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    background: rgb(226, 250, 14);
+    color: #222;
+    border: 1px solid #fff;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .btn-light{
+    background: transparent;
+     color: #fff;
+  }
+  
+  .btn:hover{
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    transition: 0.3s;
+  }
 }
 
 .button-30 {
